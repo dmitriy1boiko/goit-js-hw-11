@@ -3,8 +3,6 @@ import Notiflix from 'notiflix';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import NewApiPixabay from './js/apiPixabay';
-// 33638819-a8512ecaf41a74638f038e248
-import axios from 'axios';
 
 
 const form = document.querySelector('form.search-form');

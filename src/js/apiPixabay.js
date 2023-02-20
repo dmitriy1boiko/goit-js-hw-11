@@ -9,8 +9,8 @@ export default class NewApiPixabay {
     this.perPage = 40;
   }
 
-  fetchGallery() {
-    return axios.get(`${this.#BASE_URL}`, {
+ async fetchGallery() {
+    return await axios.get(`${this.#BASE_URL}`, {
       params: {
         key: this.#KEY,
         q: this.valueForSearch,
